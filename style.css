@@ -4,24 +4,36 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 #app, body{
     height: 100vh;
 }
 
 body{
     background: url('assets/img/bg.png') no-repeat center center/cover;
+    font-family: 'Outfit',sans-serif;
+    padding: 0 10rem;
 }
 
 #app{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+
 }
 
 
 main{
     max-width: 23.75rem;
     color: #D6D6F2;
+}
+
+aside{
+    display: flex;
+    align-items: center;
 }
 
 
@@ -39,6 +51,9 @@ p{
 
 .button-wrapper{
     margin-top: 3.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .btn{
